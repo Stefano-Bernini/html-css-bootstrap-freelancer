@@ -6,7 +6,12 @@
 
 
 /* ------HEADER------ */
-header, .bottom_footer{
+header{
+    background-color: rgba(44,62,80,1);
+    width: 100%;
+}
+
+.bottom_footer{
     background-color: rgba(44,62,80,1);
     width: 100%;
     height: 100px;
@@ -15,6 +20,20 @@ header, .bottom_footer{
 .content{
     background-color: yellow;
     height: 100px;
+}
+
+.navbar a{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+
+.navbar a:hover{
+    color: rgb(197, 197, 197);
+}
+
+.navbar-toggler-icon{
+    filter: invert(1);
 }
 
 
