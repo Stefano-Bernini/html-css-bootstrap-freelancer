@@ -11,12 +11,6 @@ header{
     width: 100%;
 }
 
-.bottom_footer{
-    background-color: rgba(44,62,80,1);
-    width: 100%;
-    height: 100px;
-}
-
 .content{
     background-color: yellow;
     height: 100px;
@@ -88,6 +82,25 @@ header{
     vertical-align: middle;
 }
 
+/* ---form--- */
+
+input, textarea{
+    border: none;
+    border-bottom: 1px solid gray;
+    margin: 10px 0;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.btn_green_form{
+    background-color: rgb(26,188,156);
+    color: white;
+}
+
+.btn_green_form:hover{
+    background-color: rgb(13, 150, 122);
+}
+
 
 /* ------FOOTER------ */
 .top_footer{
@@ -95,10 +108,29 @@ header{
 }
 
 .bottom_footer{
-    height: 150px;
+    background-color: rgba(44,62,80,1);
+    width: 100%;
 }
 
 .content_footer{
-    background-color: green;
-    height: 200px;
+    color: white;
+}
+
+.content_footer a{
+    color: rgb(26,188,156);
+    text-decoration: none;
+}
+
+.content_footer i{
+    font-size: 25px;
+    padding: 15px 0;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 60px;
+}
+
+
+.copyright{
+    color: white;
+    padding: 20px 0 40px 0;
 }
